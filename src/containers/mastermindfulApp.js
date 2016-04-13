@@ -16,17 +16,17 @@ import React, { View, Text, Component, StyleSheet } from 'react-native';
 //    </Scene>
 //    );
 
+var TimerInput = require('../components/TimerInput/TimerInput.ios.js');
+
 export default class MastermindfulApp extends React.Component {
   constructor(props) {
     super(props);
   }
-
-  render() {
-    const { state, actions } = this.props;
+render() { const { state, actions } = this.props;
 
     return (
-        <View>
-          <Text>Hello</Text>
+        <View style={{flex: 1}}>
+          <TimerInput/>
         </View>
 //        <Router scenes={scenes}
 //          {...actions} />
