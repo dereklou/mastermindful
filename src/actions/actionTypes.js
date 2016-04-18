@@ -1,2 +1,5 @@
-//Rival actions
-// export const RIVAL_FETCH_INIT = 'RIVAL: FETCH_INIT';
+//TimerInput actions
+export const TIMER_INPUT_UPDATE = 'TIMER_INUPUT: UPDATE';
+export const START_BUTTON_PRESSED = 'START_BUTTON: PRESSED';
+export const TIMER_DECREMENT = 'TIMER: DECREMENT';
+export const TIMER_COMPLETE = 'TIMER: COMPLETE';

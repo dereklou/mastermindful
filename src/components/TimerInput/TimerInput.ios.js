@@ -10,10 +10,8 @@ import React, {
 var styles = require('./TimerInput.css.js');
 
 var TimerInput = React.createClass( {
-  getInitialState: function(){
-    return {
-      text: '0'
-    };
+  updateTimer: function(time) {
+    this.props.timerInputUpdate(parseInt(time));
   },
 
   render: function() {
@@ -21,12 +19,11 @@ var TimerInput = React.createClass( {
       <View style={styles.timerView} >
         <TextInput style={styles.timerInput}
           keyboardType='number-pad' 
-          onChangeText={(text) => this.setState({text})}
-          value={this.state.text}
+          onChangeText={this.updateTimer}
+          value={this.props.time}
         />
       </View>
     );
   }
 });
-
 module.exports = TimerInput;

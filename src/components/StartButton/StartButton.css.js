@@ -3,21 +3,20 @@ import React, {
   StyleSheet,
 } from 'react-native';
 
-const TimerInputCSS = StyleSheet.create({
-  timerView: {
-  },
-
-  timerInput: {
+const StartButtonCSS = StyleSheet.create({
+  startButtonView: {
     marginLeft: 100,
     marginRight: 100,
     marginTop: 300,
     height: 40,
-    textAlign: 'center',
     borderColor: 'gray',
-    fontFamily: 'Gravity-Light',
     borderWidth: 1
+  },
+
+  startButtonText: {
+    textAlign: 'center',
   }
 
 });
 
-module.exports = TimerInputCSS;
+module.exports = StartButtonCSS;
