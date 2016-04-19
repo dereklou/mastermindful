@@ -5,10 +5,7 @@ import React, {
 
 const StartButtonCSS = StyleSheet.create({
   startButtonView: {
-    marginLeft: 100,
-    marginRight: 100,
-    marginTop: 300,
-    height: 40,
+    flex: .1,
     borderColor: 'gray',
     borderWidth: 1
   },

@@ -5,13 +5,12 @@ import React, {
 
 const CountdownCSS = StyleSheet.create({
   countdownView: {
-    marginLeft: 100,
-    marginRight: 100,
-    height: 40,
+    flex: .2,
     borderColor: 'gray',
     borderWidth: 1
   },
   countdownText: {
+    flex: 1,
     textAlign: 'center',
     fontFamily: 'Gravity-Light'
   }

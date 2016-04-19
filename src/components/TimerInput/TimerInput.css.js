@@ -5,13 +5,11 @@ import React, {
 
 const TimerInputCSS = StyleSheet.create({
   timerView: {
+    flex: .2,
   },
 
   timerInput: {
-    marginLeft: 100,
-    marginRight: 100,
-    marginTop: 300,
-    height: 40,
+    flex: 1,
     textAlign: 'center',
     borderColor: 'gray',
     fontFamily: 'Gravity-Light',
