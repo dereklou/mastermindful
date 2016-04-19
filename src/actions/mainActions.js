@@ -26,3 +26,10 @@ export function timerComplete() {
     type: types.TIMER_COMPLETE
   };
 }
+
+export function soundSelected(sound) {
+  return {
+    sound: sound,
+    type: types.SOUND_SELECT
+  };
+}

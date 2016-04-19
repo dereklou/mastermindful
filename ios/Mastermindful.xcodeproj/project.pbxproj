@@ -24,6 +24,7 @@
 		763AB3AC1CC4B34F008D4987 /* Gravity-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 763AB3AA1CC4B34F008D4987 /* Gravity-Light.otf */; };
 		763AB3AD1CC4B34F008D4987 /* Gravity-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */; };
 		7690A20D1CC5F7BE0064A8AC /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7690A20C1CC5F7770064A8AC /* libRNSound.a */; };
+		7690A20F1CC5FFC80064A8AC /* brownnoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7690A20E1CC5FFC80064A8AC /* brownnoise.wav */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -137,6 +138,7 @@
 		763AB3AA1CC4B34F008D4987 /* Gravity-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Light.otf"; sourceTree = "<group>"; };
 		763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-UltraLight.otf"; sourceTree = "<group>"; };
 		7690A1FD1CC5F7760064A8AC /* RNSound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
+		7690A20E1CC5FFC80064A8AC /* brownnoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = brownnoise.wav; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,6 +248,7 @@
 		13B07FAE1A68108700A75B9A /* Mastermindful */ = {
 			isa = PBXGroup;
 			children = (
+				7690A20E1CC5FFC80064A8AC /* brownnoise.wav */,
 				763AB3AA1CC4B34F008D4987 /* Gravity-Light.otf */,
 				763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -543,6 +546,7 @@
 			files = (
 				763AB3AD1CC4B34F008D4987 /* Gravity-UltraLight.otf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7690A20F1CC5FFC80064A8AC /* brownnoise.wav in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				763AB3AC1CC4B34F008D4987 /* Gravity-Light.otf in Resources */,
 			);

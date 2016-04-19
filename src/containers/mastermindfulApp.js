@@ -11,6 +11,7 @@ import * as mainActions from '../actions/mainActions.js';
 var TimerInput = require('../components/TimerInput/TimerInput.ios.js');
 var StartButton = require('../components/StartButton/StartButton.ios.js');
 var Countdown = require('../components/Countdown/Countdown.ios.js');
+var TestSoundButton = require('../components/TestSoundButton/TestSoundButton.ios.js');
 
 export default class MastermindfulApp extends React.Component {
   constructor(props) {
