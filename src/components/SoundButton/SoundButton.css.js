@@ -5,10 +5,7 @@ import React, {
 
 const SoundButtonCSS = StyleSheet.create({
   soundButtonView: {
-	flex: 1,
-	flexDirection: 'row',
-    justifyContent: 'space-between',
-    flexWrap: 'wrap'
+    flex: 1,
   },
 
   soundButtonImage: {

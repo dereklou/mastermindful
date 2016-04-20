@@ -4,10 +4,10 @@ import React, {
 } from 'react-native';
 
 const StartButtonCSS = StyleSheet.create({
-  startButtonView: {
-    flex: .1,
-    borderColor: 'gray',
-    borderWidth: 1
+ startButtonView: {
+	flex: .1,
+	borderColor: 'gray',
+	borderWidth: 1
   },
 
   startButtonText: {

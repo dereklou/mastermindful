@@ -17,6 +17,7 @@ var TimerInput = React.createClass( {
   render: function() {
     return (
       <View style={styles.timerView} >
+        <Text style={styles.timerPrompt}>Minutes:</Text>
         <TextInput style={styles.timerInput}
           keyboardType='number-pad' 
           onChangeText={this.updateTimer}

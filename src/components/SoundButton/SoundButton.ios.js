@@ -3,9 +3,7 @@ import React, {
   View,
   Component,
   Image,
-  Text,
   TouchableWithoutFeedback,
-  TextInput
 } from 'react-native';
 
 var styles = require('./SoundButton.css.js');
