@@ -12,6 +12,10 @@ var TimerInput = require('../components/TimerInput/TimerInput.ios.js');
 var StartButton = require('../components/StartButton/StartButton.ios.js');
 var Countdown = require('../components/Countdown/Countdown.ios.js');
 var TestSoundButton = require('../components/TestSoundButton/TestSoundButton.ios.js');
+var SoundButton = require('../components/SoundButton/SoundButton.ios.js')
+var SoundBoard = require('../components/SoundBoard/SoundBoard.ios.js')
+var Title = require('../components/Title/Title.ios.js')
+
 
 export default class MastermindfulApp extends React.Component {
   constructor(props) {
@@ -20,11 +24,13 @@ export default class MastermindfulApp extends React.Component {
   render() { 
     const { state, actions } = this.props;
     console.log(state);
+//          <Countdown counting={state.timer.counting} remainingTime={state.timer.remainingTime} {...actions}/>
 
     return (
         <View style={{flex: 1}}>
+          <Title/>
           <TimerInput time={state.timerInput.time} {...actions} />
-          <Countdown counting={state.timer.counting} remainingTime={state.timer.remainingTime} {...actions}/>
+          <SoundBoard />
           <StartButton currentTime={state.timerInput.time} counting={state.timer.counting} {...actions}/>
         </View>
         ); 
