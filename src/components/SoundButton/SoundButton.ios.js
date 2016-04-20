@@ -9,11 +9,28 @@ import React, {
 var styles = require('./SoundButton.css.js');
 
 var SoundButton = React.createClass( {
-  render: function() {
-    return (
-    <TouchableWithoutFeedback style={styles.soundButtonView}>
+  changeSound: function() {
+    console.log("currentSound is: " + this.props.currentSound);
+    console.log("sound is: " + this.props.sound);
+    if ( this.props.currentSound == this.props.sound ) {
+      console.log("turning off sound...");
+      this.props.soundSelected("none");
+    } else {
+      console.log("turning ON sound...");
+      this.props.soundSelected(this.props.sound);
+    }
 
-      <Image source={this.props.source} style={styles.soundButtonImage}/>
+  },
+
+  render: function() {
+    var image = this.props.inactiveSource;
+    if ( this.props.currentSound == this.props.sound ) {
+      image = this.props.activeSource;
+    }
+    return (
+    <TouchableWithoutFeedback onPress={this.changeSound} style={styles.soundButtonView}>
+
+      <Image source={image} style={styles.soundButtonImage}/>
 
     </TouchableWithoutFeedback>
     );

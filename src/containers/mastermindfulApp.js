@@ -30,7 +30,7 @@ export default class MastermindfulApp extends React.Component {
         <View style={{flex: 1, backgroundColor: '#F8F6F7'}}>
           <Title/>
           <TimerInput time={state.timerInput.time} {...actions} />
-          <SoundBoard />
+          <SoundBoard currentSound={state.sound.currentSound} actions={actions}/>
           <StartButton currentTime={state.timerInput.time} counting={state.timer.counting} {...actions}/>
         </View>
         ); 
