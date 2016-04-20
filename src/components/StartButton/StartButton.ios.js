@@ -12,17 +12,17 @@ var styles = require('./StartButton.css.js');
 
 var StartButton = React.createClass( {
   render: function() {
-    var text = "Start!";
+    var text = require('../../img/start_button.png')
     if(this.props.counting) {
-      text = "Stop!";
+      text = require('../../img/end_button.png')
     }
     return (
-    <TouchableWithoutFeedback onPress={()=>this.props.startButtonPressed(parseInt(this.props.currentTime)*60+'')} style={styles.startButtonView}>
 
-      <View style={styles.startButtonView}>
-        <Text style={styles.startButtonText}>{text}</Text>
-      </View>
-    </TouchableWithoutFeedback>
+    <View style={styles.startButtonView}> 
+      <TouchableWithoutFeedback onPress={()=>this.props.startButtonPressed(parseInt(this.props.currentTime)*60+'')} style={styles.startButton}>
+        <Image source={text} style = {styles.startButtonImage} />
+      </TouchableWithoutFeedback>
+    </View>
     );
   }
 });

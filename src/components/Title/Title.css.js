@@ -13,7 +13,7 @@ const TitleCSS = StyleSheet.create({
     marginTop: 30,
     fontFamily: 'Gravity-Light',
     textAlign: 'center',
-    fontSize: 30,
+    fontSize: 37,
     color: '#F8F6F7'
   }
 

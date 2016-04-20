@@ -5,14 +5,16 @@ import React, {
 
 const CountdownCSS = StyleSheet.create({
   countdownView: {
-    flex: .2,
-    borderColor: 'gray',
-    borderWidth: 1
+    flex: .4,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   countdownText: {
     flex: 1,
     textAlign: 'center',
-    fontFamily: 'Gravity-Light'
+    fontFamily: 'Gravity-UltraLight',
+    fontSize: 130
   }
 
 });
