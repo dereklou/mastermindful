@@ -25,9 +25,9 @@ export default class MastermindfulApp extends React.Component {
     const { state, actions } = this.props;
     console.log(state);
 //          <Countdown counting={state.timer.counting} remainingTime={state.timer.remainingTime} {...actions}/>
-
+//          <TimerInput time={state.timerInput.time} {...actions} />
     return (
-        <View style={{flex: 1}}>
+        <View style={{flex: 1, backgroundColor: '#F8F6F7'}}>
           <Title/>
           <TimerInput time={state.timerInput.time} {...actions} />
           <SoundBoard />

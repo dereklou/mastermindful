@@ -5,13 +5,17 @@ import React, {
 
 const StartButtonCSS = StyleSheet.create({
  startButtonView: {
-	flex: .1,
-	borderColor: 'gray',
-	borderWidth: 1
+	flex: .3,
+	flexDirection: 'column',
+	alignItems: 'center',
+	justifyContent: 'flex-end'
   },
-
-  startButtonText: {
-    textAlign: 'center',
+  startButtonImage: {
+  	resizeMode: 'contain',
+  	width: 200
+  },
+  startButton: {
+    flex: 1
   }
 
 });

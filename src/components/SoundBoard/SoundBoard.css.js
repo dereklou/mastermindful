@@ -6,10 +6,8 @@ import React, {
 
 const SoundBoardCSS = StyleSheet.create({
   soundBoardView: {
-    borderColor: 'gray',
-    borderWidth: 1,
-    flex: 1,
-
+    flex: .6,
+    flexDirection: 'column',
   },
   soundBoardRowView:{
     flex: 1,
