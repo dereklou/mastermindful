@@ -14,7 +14,7 @@ const CountdownCSS = StyleSheet.create({
     flex: 1,
     textAlign: 'center',
     fontFamily: 'Gravity-UltraLight',
-    fontSize: 130
+    fontSize: 90
   }
 
 });

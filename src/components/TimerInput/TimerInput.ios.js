@@ -4,25 +4,34 @@ import React, {
   Component,
   Image,
   Text,
-  TextInput
+  TextInput,
+  TouchableWithoutFeedback
 } from 'react-native';
 
 var styles = require('./TimerInput.css.js');
 
 var TimerInput = React.createClass( {
   updateTimer: function(time) {
-    this.props.timerInputUpdate(parseInt(time));
+    console.log(time);
+    if ( time.length >= 0 && time.length < 4) {
+      try {
+        var parsedTime =  parseInt(time) || 0;
+        this.props.timerInputUpdate(parsedTime);
+      } catch(e) {
+        this.props.timerInputUpdate(0);
+      }
+    } 
   },
 
   render: function() {
     return (
       <View style={styles.timerView} >
-        <Text style={styles.timerPrompt}>Minutes:</Text>
+          <Text style={styles.timerPrompt}>Minutes:</Text>
         <TextInput style={styles.timerInput}
           autoFocus={false}
           keyboardType='number-pad' 
           onChangeText={this.updateTimer}
-          value={this.props.time}
+          value={this.props.time+''}
         />
       </View>
     );

@@ -16,14 +16,14 @@ const TimerInputCSS = StyleSheet.create({
     flex: 1,
     textAlign: 'right',
     fontFamily: 'Gravity-Light',
-    fontSize: 50,
+    fontSize: 40,
   },
 
   timerInput: {
     flex: .7,
     textAlign: 'center',
     fontFamily: 'Gravity-Light',
-    fontSize: 50,
+    fontSize: 40,
   }
 
 });
