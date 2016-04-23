@@ -28,6 +28,7 @@ var TimerInput = React.createClass( {
       <View style={styles.timerView} >
           <Text style={styles.timerPrompt}>Minutes:</Text>
         <TextInput style={styles.timerInput}
+          underlineColorAndroid={'#F8F6F7'}
           autoFocus={false}
           keyboardType='number-pad' 
           onChangeText={this.updateTimer}
