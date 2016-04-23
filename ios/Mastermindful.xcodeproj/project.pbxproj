@@ -17,7 +17,6 @@
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
@@ -31,6 +30,8 @@
 		763AB3AC1CC4B34F008D4987 /* Gravity-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 763AB3AA1CC4B34F008D4987 /* Gravity-Light.otf */; };
 		763AB3AD1CC4B34F008D4987 /* Gravity-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */; };
 		7690A20D1CC5F7BE0064A8AC /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7690A20C1CC5F7770064A8AC /* libRNSound.a */; };
+		76970F9D1CCC1AB600D6A576 /* Gravity-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76970F9C1CCC1AB600D6A576 /* Gravity-Light.otf */; };
+		76D8C9331CCC0FE7007B98AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76D8C9321CCC0FE7007B98AC /* LaunchScreen.xib */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -136,7 +137,6 @@
 		13B07F961A680F5B00A75B9A /* Mastermindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mastermindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mastermindful/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Mastermindful/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Mastermindful/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mastermindful/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mastermindful/main.m; sourceTree = "<group>"; };
@@ -151,6 +151,8 @@
 		763AB3AA1CC4B34F008D4987 /* Gravity-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Light.otf"; sourceTree = "<group>"; };
 		763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-UltraLight.otf"; sourceTree = "<group>"; };
 		7690A1FD1CC5F7760064A8AC /* RNSound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
+		76970F9C1CCC1AB600D6A576 /* Gravity-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Light.otf"; sourceTree = "<group>"; };
+		76D8C9321CCC0FE7007B98AC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -265,16 +267,16 @@
 				76279DE91CC75FA8003DA9E2 /* fire.wav */,
 				76279DEE1CC7619C003DA9E2 /* ocean.wav */,
 				76279E481CC76CDF003DA9E2 /* bell.wav */,
+				76970F9C1CCC1AB600D6A576 /* Gravity-Light.otf */,
 				76279DEC1CC75FFB003DA9E2 /* brownnoise.wav */,
 				76279DE21CC759CD003DA9E2 /* rain.wav */,
-				763AB3AA1CC4B34F008D4987 /* Gravity-Light.otf */,
+				76D8C9321CCC0FE7007B98AC /* LaunchScreen.xib */,
 				763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = Mastermindful;
@@ -565,6 +567,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D8C9331CCC0FE7007B98AC /* LaunchScreen.xib in Resources */,
 				76279DED1CC75FFB003DA9E2 /* brownnoise.wav in Resources */,
 				76279DE31CC759CD003DA9E2 /* rain.wav in Resources */,
 				763AB3AD1CC4B34F008D4987 /* Gravity-UltraLight.otf in Resources */,
@@ -572,9 +575,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				76279E491CC76CDF003DA9E2 /* bell.wav in Resources */,
 				76279DE71CC75D97003DA9E2 /* windleaves.wav in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				76970F9D1CCC1AB600D6A576 /* Gravity-Light.otf in Resources */,
 				76279DEF1CC7619C003DA9E2 /* ocean.wav in Resources */,
-				763AB3AC1CC4B34F008D4987 /* Gravity-Light.otf in Resources */,
 				509D9D511CCB518A003F0929 /* mastermindful_startup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,18 +627,6 @@
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = Mastermindful;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {

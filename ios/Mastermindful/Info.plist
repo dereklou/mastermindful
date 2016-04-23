@@ -38,8 +38,8 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Gravity-Light.otf</string>
 		<string>Gravity-UltraLight.otf</string>
+		<string>Gravity-Light.otf</string>
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
