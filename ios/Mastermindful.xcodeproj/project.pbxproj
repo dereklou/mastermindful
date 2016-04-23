@@ -21,6 +21,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		509D9D511CCB518A003F0929 /* mastermindful_startup.png in Resources */ = {isa = PBXBuildFile; fileRef = 509D9D501CCB518A003F0929 /* mastermindful_startup.png */; };
 		76279DE31CC759CD003DA9E2 /* rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76279DE21CC759CD003DA9E2 /* rain.wav */; };
 		76279DE71CC75D97003DA9E2 /* windleaves.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76279DE61CC75D97003DA9E2 /* windleaves.wav */; };
 		76279DEB1CC75FA8003DA9E2 /* fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76279DE91CC75FA8003DA9E2 /* fire.wav */; };
@@ -140,6 +141,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mastermindful/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mastermindful/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		509D9D501CCB518A003F0929 /* mastermindful_startup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastermindful_startup.png; sourceTree = "<group>"; };
 		76279DE21CC759CD003DA9E2 /* rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rain.wav; sourceTree = "<group>"; };
 		76279DE61CC75D97003DA9E2 /* windleaves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = windleaves.wav; sourceTree = "<group>"; };
 		76279DE91CC75FA8003DA9E2 /* fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fire.wav; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 		13B07FAE1A68108700A75B9A /* Mastermindful */ = {
 			isa = PBXGroup;
 			children = (
+				509D9D501CCB518A003F0929 /* mastermindful_startup.png */,
 				76279DE61CC75D97003DA9E2 /* windleaves.wav */,
 				76279DE91CC75FA8003DA9E2 /* fire.wav */,
 				76279DEE1CC7619C003DA9E2 /* ocean.wav */,
@@ -572,6 +575,7 @@
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				76279DEF1CC7619C003DA9E2 /* ocean.wav in Resources */,
 				763AB3AC1CC4B34F008D4987 /* Gravity-Light.otf in Resources */,
+				509D9D511CCB518A003F0929 /* mastermindful_startup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
