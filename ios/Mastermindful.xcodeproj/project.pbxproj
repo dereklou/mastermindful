@@ -27,11 +27,11 @@
 		76279DED1CC75FFB003DA9E2 /* brownnoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76279DEC1CC75FFB003DA9E2 /* brownnoise.wav */; };
 		76279DEF1CC7619C003DA9E2 /* ocean.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76279DEE1CC7619C003DA9E2 /* ocean.wav */; };
 		76279E491CC76CDF003DA9E2 /* bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76279E481CC76CDF003DA9E2 /* bell.wav */; };
-		763AB3AC1CC4B34F008D4987 /* Gravity-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 763AB3AA1CC4B34F008D4987 /* Gravity-Light.otf */; };
 		763AB3AD1CC4B34F008D4987 /* Gravity-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */; };
 		7690A20D1CC5F7BE0064A8AC /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7690A20C1CC5F7770064A8AC /* libRNSound.a */; };
 		76970F9D1CCC1AB600D6A576 /* Gravity-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76970F9C1CCC1AB600D6A576 /* Gravity-Light.otf */; };
 		76D8C9331CCC0FE7007B98AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76D8C9321CCC0FE7007B98AC /* LaunchScreen.xib */; };
+		76F643B51CCC3E600094F124 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 76F643B41CCC3E5F0094F124 /* main.jsbundle */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -123,7 +123,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
 		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
@@ -148,11 +147,11 @@
 		76279DEC1CC75FFB003DA9E2 /* brownnoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = brownnoise.wav; sourceTree = "<group>"; };
 		76279DEE1CC7619C003DA9E2 /* ocean.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ocean.wav; sourceTree = "<group>"; };
 		76279E481CC76CDF003DA9E2 /* bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell.wav; sourceTree = "<group>"; };
-		763AB3AA1CC4B34F008D4987 /* Gravity-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Light.otf"; sourceTree = "<group>"; };
 		763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-UltraLight.otf"; sourceTree = "<group>"; };
 		7690A1FD1CC5F7760064A8AC /* RNSound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
 		76970F9C1CCC1AB600D6A576 /* Gravity-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Light.otf"; sourceTree = "<group>"; };
 		76D8C9321CCC0FE7007B98AC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		76F643B41CCC3E5F0094F124 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -272,7 +271,7 @@
 				76279DE21CC759CD003DA9E2 /* rain.wav */,
 				76D8C9321CCC0FE7007B98AC /* LaunchScreen.xib */,
 				763AB3AB1CC4B34F008D4987 /* Gravity-UltraLight.otf */,
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				76F643B41CCC3E5F0094F124 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -570,6 +569,7 @@
 				76D8C9331CCC0FE7007B98AC /* LaunchScreen.xib in Resources */,
 				76279DED1CC75FFB003DA9E2 /* brownnoise.wav in Resources */,
 				76279DE31CC759CD003DA9E2 /* rain.wav in Resources */,
+				76F643B51CCC3E600094F124 /* main.jsbundle in Resources */,
 				763AB3AD1CC4B34F008D4987 /* Gravity-UltraLight.otf in Resources */,
 				76279DEB1CC75FA8003DA9E2 /* fire.wav in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
@@ -680,6 +680,7 @@
 				INFOPLIST_FILE = Mastermindful/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Mastermindful;
 				PRODUCT_NAME = Mastermindful;
 			};
 			name = Debug;
@@ -697,6 +698,7 @@
 				INFOPLIST_FILE = Mastermindful/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Mastermindful;
 				PRODUCT_NAME = Mastermindful;
 			};
 			name = Release;
